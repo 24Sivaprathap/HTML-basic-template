@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sectionA {
+
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.div1 {
+    width: 100%;
+    background-color: rgb(28, 65, 102);
+    height: 90px;
+
+}
+
+.divleft {
+    width: 45%;
+    float: left;
+    margin-top: 25px;
+}
+
+
+.aa {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.aa:hover {
+    text-decoration: underline;
+}
+
+.divright {
+    display: inline-flex;
+    width: 30%;
+    float: right;
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.sectionB {
+    width: 75%;
+    margin-top: -20px;
+    height: 70px;
+    background-color: white;
+    margin-left: 150px;
+    position: absolute;
+
+
+}
+
+.heading {
+    width: 10%;
+    font-size: 30px;
+    color: rgb(28, 65, 102);
+    font-weight: bolder;
+    margin-top: 10px;
+    float: left;
+    margin-left: 40px;
+}
+
+.menu {
+    width: 60%;
+    justify-content: space-between;
+    display: inline;
+    float: right;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-left: 50px;
+
+}
+
+.menu :hover {
+    color: aqua;
+}
+
+.cc {
+    text-decoration: none;
+    color: rgb(170, 162, 162);
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+#showcase {
+    width: 100%;
+    height: 500px;
+    background-position: center right;
+    background-image: url("carousel-1.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 400px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.ld {
+    font-size: 16px;
+
+}
+
+.bl {
+    margin-top: 10px;
+    font-size: 50px;
+
+}
+
+.option {
+    margin-top: 80px;
+}
+
+.l {
+
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(28, 65, 102);
+    text-decoration: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 100px;
+    display: inline;
+    text-align: center;
+}
+
+.l :hover {
+    color: rgb(5, 5, 52);
+}
+
+.column {
+    width: 100%;
+    height: 100px;
+    display: inline;
+    display: flex;
+    padding-top: 121px;
+}
+
+.row1 {
+    width: 28%;
+    height: 80%;
+    background-color: rgb(2, 206, 206);
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top: 7px;
+}
+
+.ol {
+    margin-top: 10px;
+    color: white;
+}
+
+.no {
+    color: white;
+    margin-left: 25px;
+}
+
+.row2 {
+    width: 28%;
+    height: 80%;
+    background-color: rgb(27, 112, 168);
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 7px;
+    padding-top: 20px;
+
+}
+
+.es {
+    margin-top: 10px;
+    color: white;
+}
+
+.info {
+    color: white;
+    margin-left: 25px;
+}
+
+.row3 {
+    width: 28%;
+    height: 80%;
+    background-color: rgb(2, 206, 206);
+    float: right;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cs {
+    margin-top: 10px;
+    color: white;
+}
+
+.ph {
+    color: white;
+    margin-left: 25px;
+}
+
+.container1 {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.ab {
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 10px;
+
+}
+
+.column1 :hover {
+    opacity: 0.5;
+}
+
+
+.column2 {
+    position: relative;
+    width: 100%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.heading1 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(2, 206, 206);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin-top: auto;
+
+
+}
+
+.heading2 {
+    font-size: 30px;
+    color: rgb(8, 83, 133);
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 0;
+}
+
+.para1 {
+    font-size: 20px;
+    color: rgb(8, 83, 133);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.para2 {
+    font-size: 16px;
+    color: rgb(101, 104, 105);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 0;
+}
+
+
+.ql {
+    color: rgb(2, 206, 206);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: inline;
+}
+
+.ef {
+    color: rgb(2, 206, 206);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    float: right;
+    padding-right: 60px;
+
+}
+
+.hp {
+    color: rgb(2, 206, 206);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+    padding-top: 30px;
+}
+
+.sg {
+    color: rgb(2, 206, 206);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    float: right;
+    margin-top: -20px;
+
+
+}
+
+.container2 {
+    margin-left: 100px;
+    padding-top: 0px
+}
+
+.os {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(2, 206, 206);
+    padding-top: 70px;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.ww {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(8, 83, 133);
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.container3 {
+    width: 80%;
+    padding-top: 80px;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    padding-left: 140px;
+}
+
+.box1 {
+    width: 20%;
+    height: 170px;
+    background-color: aliceblue;
+    padding-top: 130px;
+
+}
+
+.dc {
+    margin-top: 30px;
+    color: rgb(8, 83, 133);
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.sun {
+    margin-top: -10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    margin-left: 80px;
+
+}
+
+.box2 {
+    width: 20%;
+    height: 170px;
+    background-color: aliceblue;
+    padding-top: 130px;
+}
+
+.wl {
+    margin-top: 30px;
+    color: rgb(8, 83, 133);
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.wash {
+    margin-top: -10px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 80px;
+
+}
+
+.box3 {
+    width: 20%;
+    height: 170px;
+    background-color: aliceblue;
+    padding-top: 130px;
+}
+
+.cl {
+    margin-top: 30px;
+    color: rgb(8, 83, 133);
+    margin-left: 2px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.cl {
+    font-weight: 700;
+}
+
+.water {
+    margin-top: -10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 80px;
+
+}
+
+.box4 {
+    width: 20%;
+    height: 170px;
+    background-color: aliceblue;
+    padding-top: 130px;
+}
+
+.sc {
+    margin-top: 30px;
+    color: rgb(8, 83, 133);
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.shirt {
+    margin-top: -10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 80px;
+
+}
+
+.container4 {
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.rowleft {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+
+.of {
+    color: rgb(2, 206, 206);
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.wcs {
+    color: rgb(8, 83, 133);
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.rowpara {
+    padding-top: 10px;
+    font-size: 18px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.text-secondary {
+    padding-top: 30px;
+    color: rgb(2, 206, 206);
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(8, 83, 133);
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.text-secondary1 {
+    padding-top: 30px;
+    color: rgb(2, 206, 206);
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(8, 83, 133);
+    font-family: sans-serif;
+    font-weight: 800;
+}
